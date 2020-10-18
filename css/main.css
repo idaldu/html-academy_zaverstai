@@ -93,7 +93,8 @@ button {
 	background-color: transparent;
 	border: 1px solid;
 	border-radius: 10px;
-	font-size: 16px;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 .btn:hover {
@@ -127,7 +128,8 @@ button {
 	display: flex;
 	justify-content: space-between;
 	width: 609px;
-	margin-left: 460px;
+  margin-left: 460px;
+  line-height: 25px;
 }
 
 .menu a {
@@ -208,7 +210,7 @@ time {
 }
 
 .hidden {
-	display: none;
+	opacity: 0;
 }
 
 .article-big:nth-of-type(4) {
@@ -261,7 +263,6 @@ time {
 .btn-articles {
 	text-transform: none;
 }
-
 /*=== / section-1 === */
 
 /*=== article === */
@@ -653,7 +654,8 @@ figcaption {
 	display: flex;
 	align-items: center;
 	font-weight: bold;
-	margin-bottom: 14px;
+  margin-bottom: 14px;
+  line-height: 22px;
 }
 
 .comment-header img {
@@ -697,6 +699,10 @@ figcaption {
   left: 20rem;
   bottom: 13rem;
   font-size: 12px;
+}
+
+.line-length {
+  transition: opacity .25s ease;
 }
 
 .input-comment1 {
