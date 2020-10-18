@@ -112,6 +112,10 @@ button {
   color: red;
 }
 
+.hidden {
+	opacity: 0;
+}
+
 /*=== / global === */
 
 /*=== header page-1 === */
@@ -209,8 +213,8 @@ time {
 	padding-bottom: 61px;
 }
 
-.hidden {
-	opacity: 0;
+.hidden-block {
+  display: none;
 }
 
 .article-big:nth-of-type(4) {
@@ -302,6 +306,10 @@ time {
 
 .txt-article-1 p:not(:nth-child(1)) {
 	margin-top: 26px;
+}
+
+.txt-article-1 a {
+  text-decoration: underline;
 }
 
 .txt-article-2 {
