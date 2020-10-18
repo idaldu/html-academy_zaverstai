@@ -1,7 +1,7 @@
 let wrappComments = document.querySelector('.wrapper-comments');
 let commentForm = document.querySelector('.wrapper-form-comment');
 let inputName = document.querySelector('.input-name');
-let InputText = document.querySelector('.input-text');
+let InputText = document.querySelector('.message-text-area');
 
 commentForm.onsubmit = function (evt) {
     evt.preventDefault();
