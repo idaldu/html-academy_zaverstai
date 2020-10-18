@@ -20,7 +20,7 @@ commentForm.onsubmit = function (evt) {
 
     newCommentName.textContent = inputName.value;
     newCommentText.textContent = InputText.value;
-    newAvatar.setAttribute('src', '../img/unauthorized.png');
+    newAvatar.setAttribute('src', 'img/unauthorized.png');
 
     wrappComments.append(newElement);
     InputText.value = "";
